@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Threes</string>
+    <string name="tidak_punya_akun">"Tidak punya akun? "</string>
+    <string name="sudah_punya_akun">"Sudah punya akun? "</string>
+    <string name="buat_akun">buat akun</string>
+    <string name="login">login</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="password">Kata Sandi</string>
+    <string name="ulangi_password">Ulangi Kata Sandi</string>
+    <string name="masuk">Masuk</string>
+    <string name="merah">Merah</string>
+    <string name="biru">Biru</string>
+    <string name="play">Play !</string>
+    <string name="bus">Bus</string>
+    <string name="lupa_kata_sandi">Lupa kata sandi?</string>
+    <string name="title_activity_map">Map</string>
+    <string name="ubah_rute">Ubah Rute</string>
+    <string name="programmer">Programmer</string>
+    <string name="leonardus_irfan">Leonardus Irfan</string>
+    <string name="gui_designer">GUI Designer</string>
+    <string name="anis_sofiyanti">Anis Sofiyanti</string>
+    <string name="music">Background music by dl.sounds.com</string>
+    <string name="year">2018</string>
+    <string name="credit">Credit</string>
+    <string name="how1">Kendalikan bus untuk menyalip kendaraan yang ada didepannya dengan cara mengusap layar smartphone ke kiri dan kanan. Untuk setiap kendaraan yang disalip atau dilewati pemain akan mendapatkan 10 poin. Game akan berakhir apabila bus menabrak kendaraan lain atau waktu habis.</string>
+    <string name="how2">Waktu permainan adalah 20 detik. Selesaikan perjalanan sebelum kehabisan waktu.</string>
+    <string name="how3">Mainkan!</string>
+    <string name="how">How To Play</string>
+</resources>

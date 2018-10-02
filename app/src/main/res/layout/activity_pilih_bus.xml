@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pilih_bus"
+    tools:context=".Act_Game.ActivityPilihBus">
+
+    <LinearLayout
+        android:id="@+id/layout_header"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/style_rounded_white_rectangle"
+        android:orientation="horizontal"
+        app:layout_constraintDimensionRatio="w,1.4:10"
+        app:layout_constraintEnd_toStartOf="@+id/guide_vertical2"
+        app:layout_constraintStart_toStartOf="@+id/guide_vertical1"
+        app:layout_constraintTop_toTopOf="@+id/guide_horizontal">
+
+        <Button
+            android:id="@+id/btn_merah"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/merah"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text12"
+            android:textStyle="bold" />
+
+        <View xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01"
+            android:background="@color/text_color" />
+
+        <Button
+            android:id="@+id/btn_biru"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/biru"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text12"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide_vertical1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide_vertical2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".9" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.375" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/style_rounded_white_rectangle"
+        android:text="@string/play"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text12"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guide_vertical2"
+        app:layout_constraintStart_toStartOf="@+id/guide_vertical1" />
+
+    <ImageView
+        android:id="@+id/img_bus"
+        android:src="@drawable/pilih_merah"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding10"
+        app:layout_constraintBottom_toTopOf="@+id/btn_play"
+        app:layout_constraintDimensionRatio="3:1"
+        app:layout_constraintEnd_toStartOf="@+id/guide_vertical2"
+        app:layout_constraintStart_toStartOf="@+id/guide_vertical1"
+        app:layout_constraintTop_toBottomOf="@+id/layout_header"
+        app:srcCompat="@android:color/darker_gray" />
+
+</android.support.constraint.ConstraintLayout>
